@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pet Shop Arenal Grande | Alimento y accesorios para mascotas en Montevideo</title>
+<meta name="description" content="Pet shop en Arenal Grande 2196A, Montevideo. Alimento, accesorios y asesoramiento para tu mascota. Llamá al 2929 7760.">
+<!-- MIENTRAS EL DUEÑO NO APRUEBE: Google no la muestra en búsquedas. Cuando apruebe, borrá la línea de abajo. -->
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Pet Shop Arenal Grande">
+<meta property="og:description" content="Alimento, accesorios y asesoramiento para tu mascota en Arenal Grande 2196A, Montevideo.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_UY">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F3FAE'/%3E%3Ccircle cx='32' cy='36' r='12' fill='%23FFC93C'/%3E%3Ccircle cx='18' cy='20' r='6' fill='%23FFC93C'/%3E%3Ccircle cx='32' cy='14' r='6' fill='%23FFC93C'/%3E%3Ccircle cx='46' cy='20' r='6' fill='%23FFC93C'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"PetStore","name":"Pet Shop Arenal Grande","telephone":"+598 2929 7760","address":{"@type":"PostalAddress","streetAddress":"Arenal Grande 2196A","addressLocality":"Montevideo","addressCountry":"UY"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"13:30"}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --brand:#1F3FAE; --on-brand:#FFFFFF; --on-brand-soft:#E6EAFA;
+  --sun:#FFC93C; --on-sun:#14182B;
+  --bg:#FFFFFF; --text:#14182B; --muted:#4A5068; --soft:#F2F4FA; --card:#FFFFFF;
+  --deep:#14182B; --on-deep:#FFFFFF; --deep-line:#3A4060; --deep-muted:#C9CEE0;
+  --display:'Bricolage Grotesque', 'Arial Black', system-ui, sans-serif;
+  --body:'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --brand:#2541B8; --bg:#11141F; --text:#EDEFF7; --muted:#B4BAD0; --soft:#181C2C; --card:#20253A;
+    --deep:#0A0D16; --deep-line:#2C3150;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --brand:#2541B8; --bg:#11141F; --text:#EDEFF7; --muted:#B4BAD0; --soft:#181C2C; --card:#20253A;
+  --deep:#0A0D16; --deep-line:#2C3150;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none !important}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:18px;line-height:1.55}
+a:focus-visible,button:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto}
+h1,h2,h3,h4{font-family:var(--display);margin:0}
+h2{font-weight:800;font-size:clamp(32px,4vw,48px);line-height:1.05;letter-spacing:-0.02em}
+h3{font-weight:700}
+.muted{color:var(--muted)}
+
+/* Botones */
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 28px;border-radius:999px;text-decoration:none;font-weight:700;font-size:19px}
+.btn svg{flex:none}
+.btn-sun{background:var(--sun);color:var(--on-sun)}
+.btn-sun:hover{background:#FFD866}
+.btn-line-light{border:2px solid var(--on-brand);color:var(--on-brand)}
+.btn-line-light:hover{background:rgba(255,255,255,.12)}
+.btn-brand{background:var(--brand);color:var(--on-brand)}
+.btn-brand:hover{filter:brightness(1.12)}
+.btn-line-brand{border:2px solid var(--brand);color:var(--text)}
+.btn-line-brand:hover{background:var(--soft)}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+
+/* Encabezado */
+.top{background:var(--brand);color:var(--on-brand)}
+.top .wrap{padding:18px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.logo{color:var(--on-brand);text-decoration:none;font-family:var(--display);font-weight:800;font-size:24px;line-height:1.1;letter-spacing:-0.01em}
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px}
+.nav a{color:var(--on-brand);text-decoration:none;font-weight:700;padding:10px 0}
+.nav a:hover,.nav a[aria-current="page"]{text-decoration:underline;text-decoration-thickness:3px;text-decoration-color:var(--sun);text-underline-offset:6px}
+.nav .call{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;background:var(--sun);color:var(--on-sun)}
+.nav .call:hover{text-decoration:none;background:#FFD866}
+
+/* Hero */
+.hero{background:var(--brand);color:var(--on-brand);padding:40px 24px 96px}
+.hero .wrap{display:flex;flex-wrap:wrap;align-items:flex-start;gap:56px}
+.hero-text{flex:1 1 480px;min-width:0;padding-top:24px}
+.hero h1{font-weight:800;font-size:clamp(44px,6vw,84px);line-height:.98;letter-spacing:-0.03em;max-width:13ch;margin-bottom:24px}
+.hero p.lead{margin:0 0 32px;font-size:21px;line-height:1.5;max-width:34ch;color:var(--on-brand-soft)}
+.rating{margin:36px 0 0;display:flex;align-items:center;gap:10px;color:var(--on-brand-soft);font-size:17px}
+.rating strong{color:var(--on-brand)}
+.sign-col{flex:1 1 340px;max-width:420px;min-width:0;margin:0 auto}
+.strings{display:block;width:100%;height:64px}
+.sign{background:var(--sun);color:var(--on-sun);border-radius:20px;padding:28px 28px 24px;transform:rotate(-2deg);box-shadow:0 18px 0 -6px #14182B}
+.sign .status{font-family:var(--display);font-weight:800;font-size:40px;line-height:1;margin:0 0 4px}
+.sign .detail{margin:0 0 20px;font-weight:700}
+.sign ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.sign li{display:flex;justify-content:space-between;gap:16px;padding:6px 10px;border-radius:8px}
+.sign li.today{background:rgba(20,24,43,.12);font-weight:700}
+
+/* Secciones */
+section.block{padding:88px 24px}
+.soft{background:var(--soft)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:40px}
+.why h3{font-size:26px;margin-bottom:8px}
+.why h3 span{box-shadow:inset 0 -0.35em 0 var(--sun)}
+.why p,.step p{margin:0;max-width:36ch}
+.head-row{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 32px;margin-bottom:32px}
+.head-row p{margin:12px 0 0;max-width:52ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{display:block;background:var(--soft);border-radius:16px;padding:28px 24px;border-top:8px solid var(--brand);text-decoration:none;color:var(--text)}
+a.card:hover{background:var(--card);box-shadow:0 0 0 2px var(--brand) inset}
+.card h3{font-size:24px;margin-bottom:8px}
+.card p{margin:0 0 12px}
+.card .go{font-weight:700;text-decoration:underline;text-decoration-color:var(--sun);text-decoration-thickness:3px;text-underline-offset:5px}
+.steps{list-style:none;margin:0 0 40px;padding:0}
+.step{display:flex;flex-direction:column;gap:12px}
+.step .n{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:999px;background:var(--sun);color:var(--on-sun);font-family:var(--display);font-weight:800;font-size:26px}
+.step h3{font-size:24px}
+
+/* Productos (tarjetas con dibujo) */
+.prod{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:20px}
+.item{background:var(--card);border-radius:18px;padding:12px 12px 16px;display:flex;flex-direction:column;gap:8px}
+.art{border-radius:12px;aspect-ratio:5/4;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:6px}
+.art svg{width:86%;height:auto;display:block}
+.art.blue{background:#DCE4FB}.art.sun{background:#FFF1C7}
+.item .tag{margin:0 4px;font-size:14px;font-weight:700;color:var(--muted)}
+.item h3,.item h4{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.15;margin:0 4px}
+.item p.desc{margin:0 4px;font-size:16px;line-height:1.45}
+.ask{margin:auto 4px 0;align-self:flex-start;display:inline-flex;align-items:center;min-height:44px;font-weight:700;color:var(--text);text-decoration:underline;text-decoration-color:var(--sun);text-decoration-thickness:3px;text-underline-offset:5px}
+.ask:hover{text-decoration-color:var(--brand)}
+
+/* Página de productos */
+.cat-hero{background:var(--brand);color:var(--on-brand);padding:48px 24px 56px}
+.cat-hero h1{font-weight:800;font-size:clamp(40px,5vw,68px);line-height:1;letter-spacing:-0.03em;margin:16px 0 16px}
+.cat-hero h1:focus{outline:none}
+.cat-hero p{margin:0;max-width:48ch;color:var(--on-brand-soft);font-size:20px}
+.back{color:var(--on-brand);font-weight:700;display:inline-flex;align-items:center;gap:8px;min-height:44px;text-underline-offset:4px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.chip{font:inherit;font-weight:700;font-size:17px;min-height:44px;padding:0 20px;border-radius:999px;border:2px solid var(--brand);background:var(--card);color:var(--text);cursor:pointer}
+.chip:hover{background:var(--bg)}
+.chip[aria-pressed="true"]{background:var(--brand);color:var(--on-brand)}
+.count{margin:0 0 24px;color:var(--muted)}
+.help{margin-top:56px;background:var(--sun);color:var(--on-sun);border-radius:20px;padding:32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px}
+.help h2{font-size:clamp(26px,3vw,34px)}
+.help p{margin:8px 0 0;max-width:46ch}
+.help .btn-brand{background:#14182B;color:#FFFFFF}
+
+/* Visitanos */
+.visit{background:var(--deep);color:var(--on-deep);padding:88px 24px}
+.visit .wrap{display:flex;flex-wrap:wrap;gap:56px}
+.visit .col-a{flex:1 1 420px;min-width:0}
+.visit .col-b{flex:1 1 360px;min-width:0;max-width:460px}
+.visit address{font-style:normal;display:flex;flex-direction:column;gap:20px;font-size:20px;margin:24px 0 32px}
+.visit address p{margin:0;display:flex;gap:14px;align-items:flex-start}
+.visit address a{color:var(--on-deep)}
+.visit h3{font-size:28px;margin-bottom:16px}
+.visit .now{margin:0 0 16px;color:var(--sun);font-weight:700}
+.hours{list-style:none;margin:0;padding:0}
+.hours li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--deep-line)}
+.hours li.today{font-weight:700}
+footer{background:var(--deep);color:var(--deep-muted);border-top:1px solid var(--deep-line);padding:32px 24px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:16px}
+footer p{margin:0}
+
+@media (max-width:600px){
+  body{font-size:17px}
+  .hero{padding:24px 20px 72px}
+  .hero-text{padding-top:8px}
+  .btn{width:100%;justify-content:center}
+  section.block,.visit{padding:64px 20px}
+  .nav{gap:4px 20px}
+  .prod{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .item h3,.item h4{font-size:18px}
+  .cat-hero{padding:32px 20px 40px}
+  .help{padding:24px}
+}
+</style>
+</head>
+<body>
+
+<!-- Dibujos reutilizables de productos -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="s-dogbag" viewBox="0 0 200 160"><path d="M62 36 L138 36 L146 140 Q146 146 140 146 L60 146 Q54 146 54 140 Z" fill="#1F3FAE"/><rect x="58" y="20" width="84" height="20" rx="5" fill="#14182B"/><circle cx="100" cy="92" r="30" fill="#FFC93C"/><g fill="#14182B"><rect x="84" y="87" width="32" height="10" rx="5"/><circle cx="84" cy="86" r="6"/><circle cx="84" cy="98" r="6"/><circle cx="116" cy="86" r="6"/><circle cx="116" cy="98" r="6"/></g></symbol>
+  <symbol id="s-catbag" viewBox="0 0 200 160"><path d="M62 36 L138 36 L146 140 Q146 146 140 146 L60 146 Q54 146 54 140 Z" fill="#14182B"/><rect x="58" y="20" width="84" height="20" rx="5" fill="#1F3FAE"/><circle cx="100" cy="92" r="30" fill="#FFFFFF"/><ellipse cx="95" cy="92" rx="17" ry="10" fill="#1F3FAE"/><path d="M110 92 L123 82 L123 102 Z" fill="#1F3FAE"/><circle cx="87" cy="89" r="2.5" fill="#FFFFFF"/></symbol>
+  <symbol id="s-litter" viewBox="0 0 200 160"><path d="M70 40 Q100 10 130 40" stroke="#14182B" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M58 52 H142 L134 142 Q133 148 127 148 H73 Q67 148 66 142 Z" fill="#FFC93C"/><rect x="52" y="38" width="96" height="18" rx="7" fill="#14182B"/><rect x="74" y="82" width="52" height="38" rx="7" fill="#FFFFFF"/><g fill="#4A5068"><circle cx="86" cy="94" r="3"/><circle cx="98" cy="100" r="3"/><circle cx="110" cy="93" r="3"/><circle cx="90" cy="108" r="3"/><circle cx="104" cy="110" r="3"/><circle cx="115" cy="105" r="3"/></g></symbol>
+  <symbol id="s-leash" viewBox="0 0 200 160"><circle cx="80" cy="90" r="34" fill="none" stroke="#1F3FAE" stroke-width="13"/><rect x="69" y="48" width="22" height="16" rx="3" fill="#14182B"/><circle cx="80" cy="130" r="7" fill="none" stroke="#14182B" stroke-width="4"/><path d="M86 134 C122 150 150 112 146 66" stroke="#14182B" stroke-width="6" fill="none" stroke-linecap="round"/><ellipse cx="148" cy="44" rx="12" ry="20" fill="none" stroke="#14182B" stroke-width="6"/></symbol>
+  <symbol id="s-bed" viewBox="0 0 200 160"><ellipse cx="100" cy="112" rx="80" ry="32" fill="#14182B"/><ellipse cx="100" cy="98" rx="80" ry="34" fill="#1F3FAE"/><ellipse cx="100" cy="102" rx="56" ry="21" fill="#FFC93C"/><circle cx="126" cy="92" r="12" fill="#FFFFFF"/><path d="M116 86 Q126 96 136 86" stroke="#1F3FAE" stroke-width="3" fill="none"/></symbol>
+  <symbol id="s-bowl" viewBox="0 0 200 160"><g fill="#A8652E"><circle cx="72" cy="82" r="7"/><circle cx="88" cy="76" r="7"/><circle cx="104" cy="80" r="7"/><circle cx="120" cy="75" r="7"/><circle cx="132" cy="83" r="7"/><circle cx="96" cy="68" r="6"/><circle cx="112" cy="66" r="6"/></g><path d="M46 96 H154 L142 134 Q140 140 134 140 H66 Q60 140 58 134 Z" fill="#1F3FAE"/><rect x="40" y="86" width="120" height="16" rx="8" fill="#14182B"/></symbol>
+  <symbol id="s-bone" viewBox="0 0 200 160"><ellipse cx="100" cy="132" rx="62" ry="8" fill="#14182B" opacity=".15"/><g fill="#FFFFFF"><rect x="58" y="70" width="84" height="26" rx="13"/><circle cx="58" cy="68" r="17"/><circle cx="58" cy="98" r="17"/><circle cx="142" cy="68" r="17"/><circle cx="142" cy="98" r="17"/></g><g fill="#FFC93C"><rect x="44" y="40" width="34" height="12" rx="6" transform="rotate(-20 61 46)"/><rect x="128" y="112" width="30" height="10" rx="5" transform="rotate(15 143 117)"/></g></symbol>
+  <symbol id="s-pouch" viewBox="0 0 200 160"><path d="M66 36 L134 36 L140 140 Q140 146 134 146 L66 146 Q60 146 60 140 Z" fill="#1F3FAE"/><path d="M66 36 L72 26 L78 36 L84 26 L90 36 L96 26 L102 36 L108 26 L114 36 L120 26 L126 36 L132 26 L134 36 Z" fill="#1F3FAE"/><rect x="76" y="70" width="48" height="48" rx="10" fill="#FFC93C"/><ellipse cx="96" cy="94" rx="13" ry="8" fill="#14182B"/><path d="M108 94 L118 86 L118 102 Z" fill="#14182B"/></symbol>
+  <symbol id="s-ball" viewBox="0 0 200 160"><ellipse cx="100" cy="142" rx="44" ry="7" fill="#14182B" opacity=".15"/><circle cx="100" cy="84" r="52" fill="#FFC93C"/><path d="M54 60 Q100 92 146 60" stroke="#FFFFFF" stroke-width="7" fill="none"/><path d="M54 108 Q100 76 146 108" stroke="#FFFFFF" stroke-width="7" fill="none"/></symbol>
+  <symbol id="s-carrier" viewBox="0 0 200 160"><path d="M78 52 Q100 20 122 52" stroke="#14182B" stroke-width="9" fill="none" stroke-linecap="round"/><rect x="40" y="50" width="120" height="90" rx="16" fill="#1F3FAE"/><rect x="64" y="70" width="72" height="54" rx="8" fill="#14182B"/><g stroke="#DCE4FB" stroke-width="4" stroke-linecap="round"><path d="M80 76 V118"/><path d="M96 76 V118"/><path d="M112 76 V118"/><path d="M128 76 V118"/></g></symbol>
+  <symbol id="s-shampoo" viewBox="0 0 200 160"><rect x="108" y="20" width="24" height="10" rx="3" fill="#14182B"/><rect x="86" y="28" width="28" height="26" rx="4" fill="#14182B"/><rect x="70" y="50" width="60" height="98" rx="14" fill="#1F3FAE"/><rect x="80" y="82" width="40" height="40" rx="6" fill="#FFFFFF"/><circle cx="100" cy="102" r="9" fill="#FFC93C"/><g fill="none" stroke="#1F3FAE" stroke-width="3"><circle cx="150" cy="54" r="9"/><circle cx="160" cy="80" r="5"/><circle cx="44" cy="70" r="6"/></g></symbol>
+  <symbol id="s-brush" viewBox="0 0 200 160"><g stroke="#14182B" stroke-width="4" stroke-linecap="round"><path d="M64 40 V58"/><path d="M76 40 V58"/><path d="M88 40 V58"/><path d="M100 40 V58"/><path d="M112 40 V58"/><path d="M124 40 V58"/><path d="M136 40 V58"/></g><rect x="52" y="56" width="96" height="36" rx="14" fill="#1F3FAE"/><rect x="92" y="88" width="16" height="58" rx="8" fill="#14182B"/></symbol>
+  <symbol id="s-pipette" viewBox="0 0 200 160"><path d="M100 24 C100 24 68 66 68 92 a32 32 0 0 0 64 0 C132 66 100 24 100 24 Z" fill="#1F3FAE"/><path d="M84 92 a16 16 0 0 0 14 18" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="146" cy="120" r="10" fill="#FFC93C"/><circle cx="160" cy="98" r="6" fill="#FFC93C"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a href="#inicio" class="logo">Pet Shop<br>Arenal Grande</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#destacados">Destacados</a>
+      <a href="#productos" data-nav="productos">Productos</a>
+      <a href="#como-comprar">Cómo comprar</a>
+      <a href="#visitanos">Horarios y ubicación</a>
+      <a href="tel:+59829297760" class="call">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+        2929 7760</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ VISTA: INICIO ============ -->
+<main id="vista-inicio">
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div class="hero-text">
+      <h1>Todo para tu mascota, a la vuelta de la esquina.</h1>
+      <p class="lead">Alimento, accesorios y consejo de gente que sabe. Llamanos para consultar precio y stock antes de venir.</p>
+      <div class="btns">
+        <a href="tel:+59829297760" class="btn btn-sun">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          Llamar al 2929 7760</a>
+        <a href="https://maps.google.com/?q=Arenal+Grande+2196A,+Montevideo" class="btn btn-line-light" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Cómo llegar</a>
+      </div>
+      <p class="rating">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="#FFC93C" stroke="#FFC93C" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+        <span><strong>4,4 de 5</strong> en Google, con 281 reseñas de clientes</span>
+      </p>
+    </div>
+    <div class="sign-col">
+      <svg class="strings" viewBox="0 0 400 64" preserveAspectRatio="none" aria-hidden="true"><path d="M200 4 L90 64 M200 4 L310 64" stroke="#FFFFFF" stroke-width="2.5" fill="none"/><circle cx="200" cy="6" r="6" fill="#FFC93C"/></svg>
+      <div class="sign">
+        <p class="status" data-status>Horarios</p>
+        <p class="detail" data-detail>Lunes a sábado</p>
+        <ul aria-label="Horarios de atención" data-hours></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block soft" id="destacados" aria-labelledby="destacados-titulo">
+  <div class="wrap">
+    <div class="head-row">
+      <div>
+        <h2 id="destacados-titulo">Productos destacados</h2>
+        <p class="muted">Una muestra de lo que tenemos en el local. Para saber el precio de hoy, tocá «Consultar precio» y te atendemos por teléfono.</p>
+      </div>
+      <a href="#productos" class="btn btn-line-brand">Ver todos los productos</a>
+    </div>
+    <div class="prod">
+      <article class="item"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una bolsa de ración para perros"><use href="#s-dogbag"/></svg></div><h3>Ración para perros</h3><p class="desc muted">Para cachorros, adultos y senior.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+      <article class="item"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una bolsa de ración para gatos"><use href="#s-catbag"/></svg></div><h3>Ración para gatos</h3><p class="desc muted">Para gatitos y adultos.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+      <article class="item"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un balde de piedras sanitarias"><use href="#s-litter"/></svg></div><h3>Piedras sanitarias</h3><p class="desc muted">Para la bandeja de tu gato.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+      <article class="item"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un collar con correa"><use href="#s-leash"/></svg></div><h3>Correas y collares</h3><p class="desc muted">De distintos tamaños y colores.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+      <article class="item"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una cama para mascotas"><use href="#s-bed"/></svg></div><h3>Camas</h3><p class="desc muted">Para perros y gatos.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+      <article class="item"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un comedero con ración"><use href="#s-bowl"/></svg></div><h3>Comederos y bebederos</h3><p class="desc muted">De plástico y de acero.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="block why" aria-labelledby="por-que">
+  <div class="wrap">
+    <h2 id="por-que" style="margin-bottom:40px;max-width:20ch">Por qué los vecinos vuelven</h2>
+    <div class="grid">
+      <div><h3><span>Mucha variedad</span></h3><p class="muted">Alimento, accesorios y artículos de cuidado para tu mascota, todo en el mismo lugar.</p></div>
+      <div><h3><span>Precios de barrio</span></h3><p class="muted">Precios accesibles para la compra de todos los meses, no solo para una ocasión especial.</p></div>
+      <div><h3><span>Te asesoramos</span></h3><p class="muted">¿No sabés qué alimento le conviene? Preguntanos y te ayudamos a elegir según la edad y el tamaño.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block soft" id="categorias" aria-labelledby="categorias-titulo">
+  <div class="wrap">
+    <h2 id="categorias-titulo" style="margin-bottom:12px">Qué vas a encontrar</h2>
+    <p class="muted" style="margin:0 0 40px;max-width:52ch">Elegí una categoría para ver los productos. El stock cambia seguido: si buscás una marca puntual, llamanos y te confirmamos.</p>
+    <div class="cards">
+      <a href="#cat-perros" class="card" style="background:var(--card)"><h3>Perros</h3><p class="muted">Ración y snacks para cachorros, adultos y senior.</p><span class="go">Ver productos</span></a>
+      <a href="#cat-gatos" class="card" style="background:var(--card)"><h3>Gatos</h3><p class="muted">Ración seca, pouches y piedras sanitarias.</p><span class="go">Ver productos</span></a>
+      <a href="#cat-accesorios" class="card" style="background:var(--card)"><h3>Accesorios</h3><p class="muted">Correas, camas, comederos, juguetes y transportadoras.</p><span class="go">Ver productos</span></a>
+      <a href="#cat-higiene" class="card" style="background:var(--card)"><h3>Higiene y cuidado</h3><p class="muted">Shampoo, cepillos y antipulgas.</p><span class="go">Ver productos</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="como-comprar" aria-labelledby="comprar-titulo">
+  <div class="wrap">
+    <h2 id="comprar-titulo" style="margin-bottom:40px">Cómo comprar sin perder tiempo</h2>
+    <ol class="steps grid">
+      <li class="step"><span class="n" aria-hidden="true">1</span><h3>Llamanos o escribinos</h3><p class="muted">Contanos qué necesitás y para qué mascota. Te decimos el precio y si hay stock.</p></li>
+      <li class="step"><span class="n" aria-hidden="true">2</span><h3>Te lo separamos</h3><p class="muted">Dejamos tu pedido listo con tu nombre para que no tengas que esperar.</p></li>
+      <li class="step"><span class="n" aria-hidden="true">3</span><h3>Pasás a retirarlo</h3><p class="muted">En Arenal Grande 2196A, dentro del horario de atención.</p></li>
+    </ol>
+    <div class="btns">
+      <a href="tel:+59829297760" class="btn btn-brand">Llamar al 2929 7760</a>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visitanos" aria-labelledby="visitanos-titulo">
+  <div class="wrap">
+    <div class="col-a">
+      <h2 id="visitanos-titulo">Visitanos</h2>
+      <address>
+        <p><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFC93C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Arenal Grande 2196A<br>Montevideo</span></p>
+        <p><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFC93C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:+59829297760">2929 7760</a></p>
+      </address>
+      <a href="https://maps.google.com/?q=Arenal+Grande+2196A,+Montevideo" class="btn btn-sun" target="_blank" rel="noopener">Abrir en Google Maps</a>
+    </div>
+    <div class="col-b">
+      <h3>Horarios</h3>
+      <p class="now" data-now>Lunes a viernes de 9:00 a 18:00, sábados de 9:00 a 13:30.</p>
+      <ul class="hours" aria-label="Horarios de atención" data-hours></ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ VISTA: PRODUCTOS ============ -->
+<main id="vista-productos" hidden>
+  <section class="cat-hero" id="productos">
+    <div class="wrap">
+      <a href="#inicio" class="back">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        Volver al inicio</a>
+      <h1 id="productos-h1" tabindex="-1">Todos nuestros productos</h1>
+      <p>Lo que vas a encontrar en el local. Los precios y el stock cambian, así que llamanos antes de venir y te confirmamos.</p>
+    </div>
+  </section>
+
+  <section class="block soft" style="padding-top:40px">
+    <div class="wrap">
+      <div class="chips" role="group" aria-label="Filtrar por categoría">
+        <button type="button" class="chip" data-filter="todos" aria-pressed="true">Todos</button>
+        <button type="button" class="chip" data-filter="perros" aria-pressed="false">Perros</button>
+        <button type="button" class="chip" data-filter="gatos" aria-pressed="false">Gatos</button>
+        <button type="button" class="chip" data-filter="accesorios" aria-pressed="false">Accesorios</button>
+        <button type="button" class="chip" data-filter="higiene" aria-pressed="false">Higiene y cuidado</button>
+      </div>
+      <p class="count" aria-live="polite" data-count>Mostrando 13 productos</p>
+
+      <div class="prod">
+        <article class="item" data-cat="perros"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una bolsa de ración para perros"><use href="#s-dogbag"/></svg></div><p class="tag">Perros</p><h4>Ración para perros</h4><p class="desc muted">Para cachorros, adultos y senior, en bolsas de distintos tamaños.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="perros"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un hueso para perros"><use href="#s-bone"/></svg></div><p class="tag">Perros</p><h4>Snacks y huesitos</h4><p class="desc muted">Premios para el entrenamiento y el día a día.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="gatos"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una bolsa de ración para gatos"><use href="#s-catbag"/></svg></div><p class="tag">Gatos</p><h4>Ración para gatos</h4><p class="desc muted">Ración seca para gatitos y adultos.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="gatos"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un pouch de alimento húmedo para gatos"><use href="#s-pouch"/></svg></div><p class="tag">Gatos</p><h4>Pouches para gatos</h4><p class="desc muted">Alimento húmedo en sobres individuales.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="gatos"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un balde de piedras sanitarias"><use href="#s-litter"/></svg></div><p class="tag">Gatos</p><h4>Piedras sanitarias</h4><p class="desc muted">Para la bandeja de tu gato.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="accesorios"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un collar con correa"><use href="#s-leash"/></svg></div><p class="tag">Accesorios</p><h4>Correas y collares</h4><p class="desc muted">De distintos tamaños y colores.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="accesorios"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una cama para mascotas"><use href="#s-bed"/></svg></div><p class="tag">Accesorios</p><h4>Camas</h4><p class="desc muted">Para perros y gatos, de varios tamaños.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="accesorios"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un comedero con ración"><use href="#s-bowl"/></svg></div><p class="tag">Accesorios</p><h4>Comederos y bebederos</h4><p class="desc muted">De plástico y de acero.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="accesorios"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una pelota de juguete"><use href="#s-ball"/></svg></div><p class="tag">Accesorios</p><h4>Juguetes</h4><p class="desc muted">Pelotas, mordillos y juguetes para gatos.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="accesorios"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una transportadora para mascotas"><use href="#s-carrier"/></svg></div><p class="tag">Accesorios</p><h4>Transportadoras</h4><p class="desc muted">Para llevar a tu mascota al veterinario o de viaje.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="higiene"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un frasco de shampoo"><use href="#s-shampoo"/></svg></div><p class="tag">Higiene y cuidado</p><h4>Shampoo</h4><p class="desc muted">Para bañar a tu mascota en casa.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="higiene"><div class="art sun"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de un cepillo"><use href="#s-brush"/></svg></div><p class="tag">Higiene y cuidado</p><h4>Cepillos</h4><p class="desc muted">Para pelo corto y pelo largo.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+        <article class="item" data-cat="higiene"><div class="art blue"><svg viewBox="0 0 200 160" role="img" aria-label="Dibujo de una gota de antipulgas"><use href="#s-pipette"/></svg></div><p class="tag">Higiene y cuidado</p><h4>Antipulgas</h4><p class="desc muted">Pipetas y collares antiparasitarios.</p><a href="tel:+59829297760" class="ask">Consultar precio</a></article>
+      </div>
+
+      <div class="help">
+        <div>
+          <h2>¿No encontrás lo que buscás?</h2>
+          <p>Seguro lo tenemos o te lo conseguimos. Llamanos y preguntá por la marca o el producto que necesitás.</p>
+        </div>
+        <a href="tel:+59829297760" class="btn btn-brand">Llamar al 2929 7760</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Pet Shop Arenal Grande, Arenal Grande 2196A, Montevideo</p>
+    <p>© 2026 Pet Shop Arenal Grande</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* Horarios y cartel de abierto/cerrado */
+  var names=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+  var hours={0:null,1:[9,18],2:[9,18],3:[9,18],4:[9,18],5:[9,18],6:[9,13.5]};
+  function fmt(h){var m=Math.round((h%1)*60);return Math.floor(h)+':'+(m<10?'0'+m:m);}
+  var now;
+  try{now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Montevideo'}));}catch(e){now=new Date();}
+  var today=now.getDay(), t=now.getHours()+now.getMinutes()/60;
+  [1,2,3,4,5,6,0].forEach(function(i){
+    document.querySelectorAll('[data-hours]').forEach(function(ul){
+      var li=document.createElement('li');
+      if(i===today) li.className='today';
+      var a=document.createElement('span'); a.textContent=names[i]+(i===today?' (hoy)':'');
+      var b=document.createElement('span'); b.textContent=hours[i]?fmt(hours[i][0])+' a '+fmt(hours[i][1]):'Cerrado';
+      li.appendChild(a); li.appendChild(b); ul.appendChild(li);
+    });
+  });
+  var h=hours[today], title, detail;
+  if(h && t>=h[0] && t<h[1]){ title='Abierto ahora'; detail='Hoy cerramos a las '+fmt(h[1]); }
+  else{
+    title='Cerrado ahora';
+    var opensToday=h && t<h[0], next=today;
+    if(!opensToday){do{next=(next+1)%7;}while(!hours[next]);}
+    detail='Abrimos '+(opensToday?'hoy':'el '+names[next].toLowerCase())+' a las '+fmt(hours[next][0]);
+  }
+  document.querySelector('[data-status]').textContent=title;
+  document.querySelector('[data-detail]').textContent=detail;
+  document.querySelector('[data-now]').textContent=title+'. '+detail+'.';
+
+  /* Filtro de productos */
+  var chips=[].slice.call(document.querySelectorAll('[data-filter]'));
+  var items=[].slice.call(document.querySelectorAll('#vista-productos [data-cat]'));
+  var count=document.querySelector('[data-count]');
+  function setFilter(f){
+    if(!chips.some(function(c){return c.getAttribute('data-filter')===f;})) f='todos';
+    chips.forEach(function(c){c.setAttribute('aria-pressed', c.getAttribute('data-filter')===f?'true':'false');});
+    var n=0;
+    items.forEach(function(it){var show=(f==='todos'||it.getAttribute('data-cat')===f); it.hidden=!show; if(show) n++;});
+    count.textContent='Mostrando '+n+(n===1?' producto':' productos');
+  }
+  chips.forEach(function(c){c.addEventListener('click',function(){setFilter(c.getAttribute('data-filter'));});});
+
+  /* Navegación entre inicio y la página de productos */
+  var home=document.getElementById('vista-inicio'), catalog=document.getElementById('vista-productos');
+  var navProd=document.querySelector('[data-nav="productos"]');
+  function route(){
+    var hash=decodeURIComponent(location.hash.slice(1));
+    if(hash==='productos' || hash.indexOf('cat-')===0){
+      home.hidden=true; catalog.hidden=false;
+      setFilter(hash.indexOf('cat-')===0 ? hash.slice(4) : 'todos');
+      navProd.setAttribute('aria-current','page');
+      document.title='Productos | Pet Shop Arenal Grande';
+      window.scrollTo(0,0);
+      document.getElementById('productos-h1').focus({preventScroll:true});
+    }else{
+      var wasCatalog=!catalog.hidden;
+      catalog.hidden=true; home.hidden=false;
+      navProd.removeAttribute('aria-current');
+      document.title='Pet Shop Arenal Grande | Alimento y accesorios para mascotas en Montevideo';
+      var el=hash && document.getElementById(hash);
+      if(el && hash!=='inicio'){ el.scrollIntoView(); }
+      else if(wasCatalog || hash==='inicio'){ window.scrollTo(0,0); }
+    }
+  }
+  window.addEventListener('hashchange',route);
+  route();
+})();
+</script>
+</body>
+</html>
